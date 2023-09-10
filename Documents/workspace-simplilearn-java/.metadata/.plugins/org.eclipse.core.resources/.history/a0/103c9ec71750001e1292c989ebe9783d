@@ -1,0 +1,19 @@
+package com.simplilearn.fsd._11_interface;
+
+interface Income{
+	
+	double calculatePay
+}
+
+class Employee{
+	String name;
+	int age;
+}
+
+public class InterfaceExample2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

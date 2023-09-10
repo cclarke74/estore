@@ -1,0 +1,28 @@
+package com.simplilearn.fsd._11_interface;
+
+
+/*
+ * An Interface is like a contract that must be accomplished by 
+ * the class that implements the interface.
+ */
+interface MyInterface {
+	
+	void doSomething();
+}
+
+class MyClass implements MyInterface{
+
+	@Override
+	public void doSomething() {
+		syso
+	}
+	
+}
+
+public class InterfaceExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}

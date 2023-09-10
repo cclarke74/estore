@@ -1,0 +1,36 @@
+package com.simplilearn.fsd._11_interface;
+
+interface Income{
+	
+	double calculatePay(double salary, double taxes);
+}
+
+class Employee implements Income{
+	String name;
+	int age;
+	
+	@Override
+	public double calculatePay(double salary, double taxes) {
+		return salary - taxes;
+	}
+	
+	void doSomething() {
+		System.out.println("Doing Something");
+	}
+}
+
+public class InterfaceExample2 {
+
+	public static void main(String[] args) {
+
+		Income emp = new Employee();
+		
+		double pay = emp.calculatePay(1000,200);
+		emp.doSomething();
+		
+		System.out.println(pay);
+		
+		
+	}
+
+}

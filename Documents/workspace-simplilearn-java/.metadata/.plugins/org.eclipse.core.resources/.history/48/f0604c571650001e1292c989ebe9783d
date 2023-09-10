@@ -1,0 +1,13 @@
+package com.simplilearn.fsd._11_interface;
+
+interface MyInterface {
+	
+}
+
+public class InterfaceExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}

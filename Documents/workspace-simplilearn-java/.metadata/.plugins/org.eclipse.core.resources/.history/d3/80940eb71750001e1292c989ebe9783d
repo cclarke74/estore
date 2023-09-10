@@ -1,0 +1,15 @@
+package com.simplilearn.fsd._11_interface;
+
+
+class Employee{
+	String name;
+	i
+}
+
+public class InterfaceExample2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

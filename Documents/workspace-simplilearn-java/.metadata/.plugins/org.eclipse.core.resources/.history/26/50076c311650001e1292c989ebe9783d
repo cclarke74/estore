@@ -1,0 +1,10 @@
+package com.simplilearn.fsd._11_interface;
+
+interface Inco
+public class InterfaceExample {
+
+	public static void main(String[] args) {
+
+	}
+
+}
